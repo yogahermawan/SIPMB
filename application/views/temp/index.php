@@ -15,12 +15,11 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
         
     <!-- CSS Bootstrap & Custom -->
-    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="../css/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link href="../css/animate.css" rel="stylesheet" media="screen">
-    <link href="../">
+    <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.css')?>" rel="stylesheet" media="screen">
+    <link href="<?php echo base_url('assets/css/font-awesome.min.css')?>" rel="stylesheet" media="screen">
+    <link href="<?php echo base_url('assets/css/animate.css')?>" rel="stylesheet" media="screen">
     
-    <link href="style.css" rel="stylesheet" media="screen">
+    <link href="<?php echo base_url('style.css')?>" rel="stylesheet" media="screen">
         
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
@@ -48,10 +47,11 @@
         </a>
         <div class="responsive_menu">
             <ul class="main_menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">Cari Kampus</a></li>
                 <li><a href="#">Informasi Pendaftaran</a></li>
                 <li><a href="#">Informasi Beasiswa</a></li>
+                <li><a href="form.php">PMB</a></li>
                 <!-- /.main_menu -->
                 
                 <!-- /.social_icons -->
@@ -298,10 +298,10 @@
         </div> <!-- /.container -->
     </footer> <!-- /.site-footer -->
 
-
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
-    <script src="../js/plugins.js"></script>
-    <script src="../js/custom.js"></script>
+    <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.css')?>" rel="stylesheet" media="screen">
+    <script src="<?php echo base_url('bootstrap/js/bootstrap.min.js')?>"></script>
+    <script src="<?php echo base_url('js/plugins.js')?>"></script>
+    <script src="<?php echo base_url('js/custom.js')?>"></script>
 
 </body>
 </html>
