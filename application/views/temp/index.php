@@ -15,24 +15,22 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
         
     <!-- CSS Bootstrap & Custom -->
-    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="../css/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link href="../css/animate.css" rel="stylesheet" media="screen">
-    <link href="../">
-    
-    <link href="style.css" rel="stylesheet" media="screen">
-        
+    <link href="<?=base_url()?>public/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="<?=base_url()?>public/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="<?=base_url()?>public/css/animate.css" rel="stylesheet" media="screen">
+    <link href="<?=base_url()?>public/css/style.css" rel="stylesheet" media="screen">
+    <link href="<?=base_url()?>public/css/main.css" rel="stylesheet" media="screen">
+    <link href="<?=base_url()?>public/css/misc.css" rel="stylesheet" media="screen">
+    <link href="<?=base_url()?>public/css/color-scheme.css" rel="stylesheet" media="screen">
+    <link href="<?=base_url()?>public/css/responsive.css" rel="stylesheet" media="screen">
+
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../images/ico/favicon.ico">
+    <link rel="shortcut icon" href="<?=base_url()?>public/images/ico/favicon.ico">
     
     <!-- JavaScripts -->
-    <script src="../js/jquery-1.10.2.min.js"></script>
-    <script src="../js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="../js/modernizr.js"></script>
+    <script src="<?=base_url()?>public/js/jquery-1.10.2.min.js"></script>
+    <script src="<?=base_url()?>public/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="<?=base_url()?>public/js/modernizr.js"></script>
     <!--[if lt IE 8]>
 	<div style=' clear: both; text-align:center; position: relative;'>
             <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
@@ -70,7 +68,7 @@
                 <div class="col-md-4">
                     <div class="logo">
                         <a href="index.php" title="Universe" rel="home">
-                            <img src="images/logo.png" alt="Universe">
+                            <img src="<?=base_url()?>public/images/logo.png" alt="Universe">
                         </a>
                     </div> <!-- /.logo -->
                 </div> <!-- /.col-md-4 -->
@@ -298,10 +296,7 @@
         </div> <!-- /.container -->
     </footer> <!-- /.site-footer -->
 
-
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
-    <script src="../js/plugins.js"></script>
-    <script src="../js/custom.js"></script>
+    <script src="<?=base_url()?>public/bootstrap/js/min/bootstrap.min.js"></script>
 
 </body>
 </html>

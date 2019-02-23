@@ -3,8 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['encryption_key'] = 'loginadmin';
 
+# WAJIB SETTING
+$config['base_url'] = "http://localhost:8080/";
 
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 
 $config['uri_protocol']	= 'REQUEST_URI';
