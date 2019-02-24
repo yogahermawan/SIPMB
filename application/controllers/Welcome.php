@@ -8,4 +8,12 @@ class Welcome extends CI_Controller {
 			'page' => 'mahasiswa/index'
 		]);
 	}
+
+	public function error_404()
+	{
+		$this->load->view('main_page', [
+			'title' => 'SIPMB - Galat: Halaman Tidak Ditemukan.',
+			'page' => 'errors/html/error_404'
+		]);
+	}
 }
